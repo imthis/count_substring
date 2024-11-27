@@ -67,7 +67,7 @@ void searchSubstringFrequency(const std::unordered_map<int, int>& substringCount
 
 int main() {
     // text file path
-    std::string filename = "/mnt/c/Users/abhis/Desktop/RocketGPT/Dataset_files/manual/count.txt";
+    std::string filename = "/count.txt";
     auto start_time = std::chrono::high_resolution_clock::now();
 
     std::unordered_map<int, int> substringCount;
